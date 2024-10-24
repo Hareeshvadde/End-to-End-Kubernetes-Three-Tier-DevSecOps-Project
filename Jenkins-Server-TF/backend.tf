@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket         = "3tier1"
-    region         = "ap-south-1a"
+    region         = "ap-south-1"
     key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "3tier"
     encrypt        = true
